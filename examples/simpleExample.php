@@ -10,7 +10,7 @@
 	echo $myBook->title . "<br/>" . $myBook->description;
 	
 	$myBook->title = "Some new title";
-	$myBook->save;
+	$myBook->save();
 
 
 	//Database will have a table called "books" not "book"
